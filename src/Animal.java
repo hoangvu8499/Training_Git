@@ -45,7 +45,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return name + "{" +
                 "age=" + age +
                 ", height=" + height +
                 ", name='" + name + '\'' +
@@ -58,6 +58,7 @@ public class Animal {
 
     public static void main(String[] args) {
         Animal dog = new Animal(2,50.2,"Dog",10.1);
-        System.out.println(dog.toString());
+        Animal cat = new Animal(1,50.2,"Cat",10.1);
+
     }
 }
