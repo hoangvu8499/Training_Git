@@ -60,12 +60,6 @@ public class Animal {
         Animal pig = new Animal(2,50.2,"pig",10.1);
         Animal cat = new Animal(2,50.2,"Cat",10.1);
 
-        System.out.println(pig.toString());
-
-        Animal elephant = new Animal(2,50.2,"elephant",10.1);
-        System.out.println(elephant.toString());
-        System.out.println(cat.toString());
-
 
     }
 }
