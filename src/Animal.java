@@ -57,10 +57,10 @@ public class Animal {
     }
 
     public static void main(String[] args) {
-        Animal dog = new Animal(2,50.2,"Dog",10.1);
+        Animal pig = new Animal(2,50.2,"pig",10.1);
         Animal cat = new Animal(2,50.2,"Cat",10.1);
 
-        System.out.println(dog.toString());
+        System.out.println(pig.toString());
         System.out.println(cat.toString());
 
 
