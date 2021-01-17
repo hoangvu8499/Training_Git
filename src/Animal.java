@@ -61,7 +61,9 @@ public class Animal {
         Animal Dog = new Animal(10, 50.2, "Dog", 10.1);
         System.out.println(Dog.toString());
 
+
         Animal cat = new Animal(1000, 50.2, "Cat", 10.1);
+        System.out.println(cat.toString());
 
         System.out.println(pig.toString());
     }
