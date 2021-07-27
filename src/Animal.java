@@ -58,9 +58,9 @@ public class Animal {
 
     public static void main(String[] args) {
         Animal Dog = new Animal(10, 50.2, "Dog", 10.1);
-        Animal cat = new Animal(1000, 50.2, "Cat", 10.1);
+        Animal abc = new Animal(1000, 50.2, "abc", 10.1);
         Animal Pig = new Animal(200, 1000.0, "Pig Heo", 200.1);
+        Animal siba = new Animal(200, 1000.0, "siba", 200.1);
 
-        System.out.println(cat.toString());
     }
 }
